@@ -8,7 +8,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 
 public class PhaseOneThread extends Thread {
-
+    
+    //private static final String BASE_PATH ="http://54.200.252.131:8080/Server_war";
     private static final String BASE_PATH = "http://localhost:8080/Server_war_exploded";
     private int numPostReq;
     private int startID;
